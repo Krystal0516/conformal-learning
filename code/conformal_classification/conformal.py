@@ -7,7 +7,7 @@ import torch.utils.data as tdata
 import pandas as pd
 import time
 from tqdm import tqdm
-from utils import validate, get_logits_targets, sort_sum
+from conformal_classification.utils import validate, get_logits_targets, sort_sum
 import pdb
 
 # Conformalize a model with a calibration set.
@@ -309,7 +309,7 @@ import torch.utils.data as tdata
 import pandas as pd
 import time
 from tqdm import tqdm
-from utils import validate, get_logits_targets, sort_sum
+from conformal_classification.utils import validate, get_logits_targets, sort_sum
 import pdb
 
 # Conformalize a model with a calibration set.
