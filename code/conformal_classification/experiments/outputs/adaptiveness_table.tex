@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lcccccccccc} 
+\toprule
+         & \multicolumn{2}{c}{$\lambda={0}$}     & \multicolumn{2}{c}{$\lambda={0.001}$}     & \multicolumn{2}{c}{$\lambda={0.01}$}     & \multicolumn{2}{c}{$\lambda={0.1}$}     & \multicolumn{2}{c}{$\lambda={1}$}    \\ 
+         \cmidrule(r){2-3}     \cmidrule(r){4-5}     \cmidrule(r){6-7}     \cmidrule(r){8-9}     \cmidrule(r){10-11}    
+size &cnt & cvg     &cnt & cvg     &cnt & cvg     &cnt & cvg     &cnt & cvg     \\ 
+\midrule 
+0 to 1      & 11627 & 0.88  & 11539 & 0.88  & 11225 & 0.89  & 10476 & 0.92  & 10027 & 0.93 \\ 
+2 to 3      & 3687 & 0.91  & 3702 & 0.91  & 3741 & 0.92  & 3845 & 0.93  & 3922 & 0.94 \\ 
+4 to 6      & 1239 & 0.91  & 1290 & 0.91  & 1706 & 0.92  & 4221 & 0.89  & 6051 & 0.83 \\ 
+7 to 10      & 688 & 0.93  & 765 & 0.93  & 1314 & 0.91  & 1436 & 0.71  & 0 & \\ 
+11 to 100      & 2207 & 0.94  & 2604 & 0.93  & 2014 & 0.86  & 22 & 0.59  & 0 & \\ 
+101 to 1000      & 552 & 0.97  & 100 & 0.90  & 0 &  & 0 &  & 0 & \\ 
+\bottomrule
+\end{tabular}
+\caption{\textbf{Coverage conditional on set size.} We report average coverage of images stratified by the size of the set output by a conformalized ResNet-152 for $k_{reg}=5$ and varying $\lambda$.}
+\label{table:adaptiveness}
+\end{table}
